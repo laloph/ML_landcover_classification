@@ -4,10 +4,14 @@
 ## 🧠 Descripción del Proyecto / Project Description
 
 **Español:**  
-Este proyecto de Machine Learning tiene como objetivo clasificar diferentes tipos de cobertura del suelo utilizando datos ambientales y topográficos. Se ha empleado el **Forest Cover Type Dataset** del UCI Machine Learning Repository para entrenar un modelo de clasificación basado en **Random Forest**. Este proyecto surge del interés en aplicar técnicas de ML en geología y minería, donde la identificación y clasificación del terreno es fundamental para la planificación y gestión ambiental.
+Este proyecto de Machine Learning tiene como objetivo clasificar diferentes tipos de cobertura del suelo utilizando datos ambientales y topográficos. Se ha implementado un modelo de clasificación basado en Random
+Forest, entrenado con la base de datos de Libre acceso “Forest Cover Type Dataset” elaborado por el UCI Machine Learning Repository. Este proyecto surge del interés en aplicar técnicas de ML en geología y minería, donde la identificación y clasificación del terreno es fundamental para la planificación y gestión ambiental. El Forest
+Cover Type Dataset, contiene observaciones de áreas forestales en EE.UU. con su respectivo tipo de cobertura como variable objetivo.
+
 
 **English:**  
-This Machine Learning project aims to classify different land cover types using environmental and topographic data. The **Forest Cover Type Dataset** from the UCI Machine Learning Repository was used to train a classification model based on **Random Forest**. This project stems from the interest in applying ML techniques in geology and mining, where identifying and classifying terrain is crucial for planning and environmental management.
+This Machine Learning project aims to classify different types of land cover using environmental and topographic data. A classification model based on Random Forest has been implemented, trained with the publicly available "Forest Cover Type Dataset" from the UCI Machine Learning Repository. This project stems from an interest in applying ML techniques to geology and mining, where terrain identification and classification are essential for environmental planning and management. The Forest Cover Type Dataset contains observations of forested areas in the United States, with the corresponding type of land cover as the target variable.
+
 
 ---
 
@@ -32,12 +36,12 @@ ML_landocover_classification/
 ├── README.md
 ├── .gitignore
 └── src/
-├── data_sample/ # Muestra del dataset (<5MB)
-├── img/ # Imágenes como portada y matriz de confusión
-├── models/ # Modelo entrenado en formato .pkl video y dataset
-├── notebooks/ # Notebooks exploratorios y de pruebas
-├── results_notebook/ # Notebook final limpio y ejecutable
-└── utils/ # Funciones auxiliares y scripts
+	├── data_sample/ # Muestra del dataset (<5MB)
+	├── img/ # Imágenes como portada y matriz de confusión
+	├── models/ # Modelo entrenado en formato .pkl video y dataset
+	├── notebooks/ # Notebooks exploratorios y de pruebas
+	├── results_notebook/ # Notebook final limpio y ejecutable
+	└── utils/ # Funciones auxiliares y scripts
 
 
 ---
